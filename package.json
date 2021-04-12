@@ -1,0 +1,17 @@
+{
+  "name": "shopee-crawl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "md5": "^2.3.0",
+    "node-excel-export": "^1.4.4",
+    "puppeteer": "^8.0.0",
+    "read-excel-file": "^5.0.0"
+  }
+}
