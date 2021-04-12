@@ -16,7 +16,7 @@ function run (url) {
             });
             let i = 0
             let result_all_page = []
-             while(i < 100)
+             while(i < 41)
              {
                 await autoScroll(page);
                 let data_one_page = await page.evaluate(async () => {

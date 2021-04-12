@@ -1,3 +1,3 @@
 - chạy file python để get list item(giá bị mã hóa)
 - npm i
-- node crawl_price.js
+-  node .\crawl_price.js

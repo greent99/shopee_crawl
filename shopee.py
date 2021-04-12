@@ -35,7 +35,7 @@ def crawl_product_id():
         category_url = category_base_url.format(newest)
         response = requests.request(
             "GET", category_url, headers=headers, data=payload, params=params)
-        if(response.status_code == 400 or i > 99):
+        if(response.status_code == 400 or i > 40):
             break
         y = response.json()
         if(len(y['items']) == 0): 
